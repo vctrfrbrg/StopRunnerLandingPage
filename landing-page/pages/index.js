@@ -1,9 +1,9 @@
-import { Box, Container, Typography } from '@mui/material';
+import { Box, Typography, Card, Button } from '@mui/material';
 
 const Index = () => (
-  <Container maxWidth="sm">
-    <Box sx={{ alignItems: 'center'}}>
-      <Typography variant='h1' component='h1' gutterBottom>
+  <Card raised>
+    <Box p={4} sx={{ alignItems: 'center'}}>
+      <Typography variant='h2' gutterBottom>
         Stoprunner
       </Typography>
 
@@ -11,7 +11,7 @@ const Index = () => (
         Welcome! We are building something lovely!
       </Typography>
     </Box>
-  </Container>
+  </Card>
 );
 
 export default Index;
