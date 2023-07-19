@@ -1,6 +1,6 @@
 import { Box, Typography, TextField, Button, FormControl, Snackbar, Slide } from '@mui/material';
 import { useState } from 'react';
-import { submitForm } from './formSubmit';
+import { submitForm } from '../formhandling/formSubmit';
 
 function SlideTransition(props) {
   return <Slide {...props} direction="up" />;
