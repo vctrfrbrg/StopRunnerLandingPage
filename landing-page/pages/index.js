@@ -1,9 +1,8 @@
-import { Header } from './Header';
-import { Hero } from './Hero';
-import { AboutTheGame } from './AboutTheGame';
-import { AboutUs } from './AboutUs';
-import { ContactUs } from './ContactUs';
-import { Footer } from './Footer';
+import { Header } from '../components/Header';
+import { AboutTheGame } from '../components/AboutTheGame';
+import { AboutUs } from '../components/AboutUs';
+import { ContactUs } from '../components/ContactUs';
+import { Footer } from '../components/Footer';
 import { CssBaseline } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
