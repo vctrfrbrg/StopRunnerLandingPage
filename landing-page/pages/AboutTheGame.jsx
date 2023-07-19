@@ -12,7 +12,7 @@ export const AboutTheGame = () => {
         You run, you stop, you win!
       </Typography>
       <Typography variant="body1" align="center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        An infinity runner, in finite space - Be fast, first, and flamboyant in this unique head-to-head puzzle race game! 
       </Typography>
     </Box>
   );
