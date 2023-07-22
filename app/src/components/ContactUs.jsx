@@ -73,8 +73,3 @@ export const ContactUs = () => {
     </Box>
   );
 };
-
-
-{/* <Typography>
-          By signing up you are okay with us sending you future information about StopRunner.
-      </Typography> */}
