@@ -1,6 +1,5 @@
 import { Box, Typography, TextField, Button, FormControl, Snackbar, Slide } from '@mui/material';
 import { useState } from 'react';
-import { submitForm } from '../formhandling/formSubmit';
 
 function SlideTransition(props) {
   return <Slide {...props} direction="up" />;
@@ -15,7 +14,7 @@ export const ContactUs = () => {
     event.preventDefault();
 
     try {
-      await submitForm(email);
+      // await submitForm(email);
 
       setOpenSnackbar(true);
       setIsSubmitted(true);

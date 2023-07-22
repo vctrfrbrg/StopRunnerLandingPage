@@ -1,21 +1,21 @@
-import { Header } from '../components/Header';
-import { AboutTheGame } from '../components/AboutTheGame';
-import { AboutUs } from '../components/AboutUs';
-import { ContactUs } from '../components/ContactUs';
-import { Footer } from '../components/Footer';
+import { Header } from './components/Header';
+import { AboutTheGame } from './components/AboutTheGame';
+import { AboutUs } from './components/AboutUs';
+import { ContactUs } from './components/ContactUs';
+import { Footer } from './components/Footer';
 import { CssBaseline } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
     background: {
-      default: '#f6f6f6', // This will be your background color.
+      default: '#f6f6f6',
     },
     primary: {
-      main: '#717171', // This is red.
+      main: '#717171',
     },
     secondary: {
-      main: '#f3f3f3', // This is indigo.
+      main: '#f3f3f3',
     },
   },
   typography: {
@@ -23,8 +23,7 @@ const theme = createTheme({
   },
 });
 
-
-const Index = () => {
+export const App = () => {
   return (
     <div>
       <ThemeProvider theme={theme}>
@@ -37,6 +36,4 @@ const Index = () => {
       </ThemeProvider>
     </div>
   );
-};
-
-export default Index;
+}
